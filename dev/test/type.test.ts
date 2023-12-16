@@ -1,5 +1,5 @@
 import { AssertionError } from "node:assert"
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { type } from "../../src/main.js"
 import { ArkTypeError } from "../../src/traverse/problems.js"
 import { attest } from "../attest/main.js"

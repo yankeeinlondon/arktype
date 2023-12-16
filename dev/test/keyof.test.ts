@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { keyOf, type } from "../../src/main.js"
 import type { Branch } from "../../src/nodes/branch.js"
 import type { TypeNode } from "../../src/nodes/node.js"

@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { scope, type } from "../../src/main.js"
 
 const ab = { a: "1", b: 1 }

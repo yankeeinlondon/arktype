@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import type { astToString } from "../../src/parse/ast/utils.js"
 import { attest } from "../attest/main.js"
 

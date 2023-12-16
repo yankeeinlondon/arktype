@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { type, union } from "../../src/main.js"
 import {
     writeMissingRightOperandMessage,

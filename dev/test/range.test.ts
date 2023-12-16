@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { type } from "../../src/main.js"
 import type { ResolvedNode } from "../../src/nodes/node.js"
 import { writeDoubleRightBoundMessage } from "../../src/parse/ast/bound.js"

@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import type { Problem, Type } from "../../src/main.js"
 import { ark, intersection, morph, scope, type, union } from "../../src/main.js"
 import type { Out } from "../../src/parse/ast/morph.js"

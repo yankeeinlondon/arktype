@@ -1,4 +1,4 @@
-import { describe, it } from "mocha"
+import { describe, it } from "vitest"
 import { type } from "../../src/main.js"
 import { writeUnboundableMessage } from "../../src/parse/ast/bound.js"
 import { writeIndivisibleMessage } from "../../src/parse/ast/divisor.js"
